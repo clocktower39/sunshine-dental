@@ -12,9 +12,9 @@ export default function Team({ teamMembers }) {
       >
         Meet Our Team
       </Typography>
-      <Grid container item flexDirection="row" justifyContent="space-around">
+      <Grid container flexDirection="row" justifyContent="space-around">
         {teamMembers.map((member) => (
-          <Grid container item xs={3} flexDirection="column" textAlign="center" alignItems="center">
+          <Grid container size={3} flexDirection="column" textAlign="center" alignItems="center">
             <Avatar sx={{ width: 150, height: 150, }} />
             <Typography fontFamily="Poppins" sx={{ borderBottom: "2px solid #00bfe0" }}>
               {member.firstName} {member.lastName}

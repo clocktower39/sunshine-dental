@@ -17,14 +17,11 @@ export default function Services({ services }) {
         <Typography variant="h4" textAlign="center" sx={{ padding: "25px 0" }}>
           Our Services
         </Typography>
-        <Grid container item flexDirection="row" spacing={6}>
+        <Grid container flexDirection="row" spacing={6}>
           {services.map((service, index) => (
             <Grid
               container
-              item
-              xs={12}
-              sm={6}
-              lg={4}
+              size={{ xs: 12, sm: 6, lg: 4, }}
               flexDirection="column"
               textAlign="center"
               alignItems="center"

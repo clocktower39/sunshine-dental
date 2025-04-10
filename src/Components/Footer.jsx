@@ -14,7 +14,7 @@ export default function Footer() {
     <div style={classes.FooterContainer}>
       <Container maxWidth="md">
         <Grid container spacing={3} sx={{ ...classes.JustifyContentCenter }}>
-          <Grid container item xs={12} sx={{ ...classes.JustifyContentCenter }}>
+          <Grid container size={12} sx={{ ...classes.JustifyContentCenter }}>
             <Typography variant="body1" sx={classes.FooterText}>
               Copyright © 2025 Sunshine Dental Tempe - All Rights Reserved.
             </Typography>

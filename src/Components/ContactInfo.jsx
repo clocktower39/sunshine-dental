@@ -15,8 +15,8 @@ export default function ContactInfo({ cardInfo }) {
       }}
     >
       <Container maxWidth="md">
-        <Grid container item flexDirection="row" spacing={5}>
-          <Grid container item flexDirection="column" xs={12} sm={6}>
+        <Grid container flexDirection="row" spacing={5}>
+          <Grid container flexDirection="column" size={{ xs: 12, sm: 6, }} >
             <Typography
               variant="h4"
               textAlign="center"
@@ -40,7 +40,7 @@ export default function ContactInfo({ cardInfo }) {
             </Typography>
           </Grid>
 
-          <Grid container item flexDirection="column" xs={12} sm={6}>
+          <Grid container flexDirection="column" size={{ xs: 12, sm: 6, }} >
             <Typography
               variant="h4"
               textAlign="center"
@@ -49,7 +49,7 @@ export default function ContactInfo({ cardInfo }) {
             >
               Business Hours
             </Typography>
-            <Grid container item justifyContent="center" sx={{}}>
+            <Grid container justifyContent="center" >
               <ul
                 style={{
                   fontSize: "16px",
